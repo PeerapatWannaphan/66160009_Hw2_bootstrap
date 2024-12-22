@@ -75,4 +75,4 @@
 - git merge feature/home-page
 - git merge feature/about-page
 - git merge feature/contact-page
-- git git push origin homework2
+- git push origin homework2
