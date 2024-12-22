@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>หน้าหลัก - นครราชสีมา</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .carousel-caption {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">โคราช</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">หน้าหลัก</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">สถานที่ท่องเที่ยว</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">ติดต่อ</a></li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="ค้นหา">
+                    <button class="btn btn-outline-light" type="submit">ค้นหา</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="http://virtualhistoricalpark.finearts.go.th/phimai/images/b_about/03.jpg" class="d-block w-100" alt="อุทยานประวัติศาสตร์พิมาย">
+                <div class="carousel-caption">
+                    <h3>อุทยานประวัติศาสตร์พิมาย</h3>
+                    <p>โบราณสถานที่ใหญ่ที่สุดในประเทศไทย</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://www.charnveeresortkhaoyai.com/wp-content/uploads/2022/04/khao-yai-landscape-mountain-blue-sky-viewpoint-thailand-2-1024x683.jpg.webp" class="d-block w-100" alt="เขาใหญ่">
+                <div class="carousel-caption">
+                    <h3>เขาใหญ่</h3>
+                    <p>อุทยานแห่งชาติที่มีความหลากหลายทางธรรมชาติ</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://cms.dmpcdn.com/travel/2020/04/03/2faa3310-75c2-11ea-865e-99779963a9e7_original.jpg" class="d-block w-100" alt="วัดบ้านไร่">
+                <div class="carousel-caption">
+                    <h3>วัดบ้านไร่</h3>
+                    <p>วัดที่มีชื่อเสียงจากหลวงพ่อคูณ</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+    </div>
+
+    <!-- Grid Section -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">สถานที่แนะนำ</h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                <div class="col">
+                    <div class="card">
+                        <img src="https://cms.dmpcdn.com/travel/2023/11/30/821da290-8f2b-11ee-92eb-5dd0d050059e_webp_original.webp" class="card-img-top" alt="อุทยานประวัติศาสตร์พิมาย">
+                        <div class="card-body">
+                            <h5 class="card-title">อนุสาวรีย์ย่าโม</h5>
+                            <p class="card-text">อนุสาวรีย์ย่าโม หรือ อนุสาวรีย์ท้าวสุรนารี เป็นแลนด์มาร์คสำคัญของเมืองโคราช ซึ่งตั้งอยู่กลางใจเมือง</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="https://www.charnveeresortkhaoyai.com/wp-content/uploads/2022/04/khao-yai-landscape-mountain-blue-sky-viewpoint-thailand-2-1024x683.jpg.webp" class="card-img-top" alt="อุทยานประวัติศาสตร์พิมาย">
+                        <div class="card-body">
+                            <h5 class="card-title">เขาใหญ่</h5>
+                            <p class="card-text">อุทยานแห่งชาติเขาใหญ่ มีความสำคัญในระดับโลกและระดับภูมิภาคอาเซียน คือ เป็นหนึ่งในพื้นที่มรดกโลกทางธรรมชาติ </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="https://img.salehere.co.th/p/1200x0/2022/07/06/dy4spmdfpmbi.jpg" class="card-img-top" alt="อุทยานประวัติศาสตร์พิมาย">
+                        <div class="card-body">
+                            <h5 class="card-title">ฟาร์มโชคชัย</h5>
+                            <p class="card-text">ฟาร์มเลี้ยงสัตว์แบบเปิดที่ไม่ได้มีดีแค่กิจกรรมป้อนอาหารสัตว์ แต่ยังมีทั้งของฝาก และของกินอีกเพียบ</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="https://cms.dmpcdn.com/travel/2023/11/30/c2eb99d0-8f2b-11ee-92eb-5dd0d050059e_webp_original.webp" class="card-img-top" alt="อุทยานประวัติศาสตร์พิมาย">
+                        <div class="card-body">
+                            <h5 class="card-title">ทุ่งทานตะวัน ไร่มณีศร</h5>
+                            <p class="card-text">ใครที่ชอบทุ่งดอกไม้สวยๆ รักในความสดใสของดอกทานตะวันแล้วล่ะก็ เราชวนไปเช็คอินที่ ทุ่งทานตะวัน ไร่มณีศร</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Footer -->
+     <footer class="bg-dark text-light py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>ติดต่อเรา</h5>
+                    <p>จังหวัดนครราชสีมา</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>ลิงก์ที่สำคัญ</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-light">หน้าหลัก</a></li>
+                        <li><a href="about.html" class="text-light">สถานที่ท่องเที่ยว</a></li>
+                        <li><a href="contact.html" class="text-light">ติดต่อ</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>ติดตามเรา</h5>
+                    <a href="#" class="text-light me-3">Facebook</a>
+                    <a href="#" class="text-light">Instagram</a>
+                </div>
+            </div>
+            <div class="text-center mt-3">
+                &copy; 2024 จังหวัดนครราชสีมา
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+
+
+
